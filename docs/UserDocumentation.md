@@ -36,7 +36,7 @@ You will be redirected to the patient portal where in the current appointment se
 Enter your address and phone number in the form and click on Book an Ambulance button.
 A real time mail will be sent to all the ambulance provider and the nearest one will start the journey.
 
-<img src='Screenshots/PatientBookAmbulance.PNG'alt='Book Ambulance'>
+<img src='Screenshots/PatientBookAmbulance.PNG' alt='Book Ambulance'>
 
 ### Current Appointment Details
 
