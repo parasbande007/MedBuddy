@@ -10,7 +10,7 @@ const ambulanceBookingSchema = new mongoose.Schema({
     ref: 'AmbulanceRegistration',
     default: null,
   },
-  PatientAddress: {
+  PatientAddress: { 
     type: String,
     default: 'none',
   },

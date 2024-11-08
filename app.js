@@ -24,8 +24,11 @@ if (process.env.NODE_ENV !== 'test') {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false,
-  });
+  })
+  .then(() => console.log('MongoDB connected successfully'))
+  .catch((error) => console.error('MongoDB connection error:', error));
 }
+
 
 app.use(
   express.static(`${__dirname}/public`, {
